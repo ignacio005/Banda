@@ -1,8 +1,17 @@
 package dominio;
-import java.util.ArrayList;
 
 public class Participante {
 
-    ArrayList <Participante> lista =new ArrayList<>();
+    private String nombre;
+
+    public String getNombre(){
+
+        return nombre;
+    }
+
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+
 
 }
