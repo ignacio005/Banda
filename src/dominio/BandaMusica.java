@@ -9,4 +9,5 @@ public class BandaMusica extends Participante {
 
         lista.add(a);
     }
+
 }

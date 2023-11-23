@@ -5,5 +5,4 @@ public class Participante {
 
     ArrayList <Participante> lista =new ArrayList<>();
 
-
 }
