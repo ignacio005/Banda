@@ -1,7 +1,5 @@
 package aplicacion;
 import dominio.*;
-
-import javax.sound.midi.Soundbank;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -25,9 +23,6 @@ public class Principal {
         act2.annadirParticipante(msc1);
         act2.annadirParticipante(msr2);
         System.out.println(bd);
-        System.out.println(act1);
-        System.out.println(act2);
 
-        
     }
 }
