@@ -9,7 +9,7 @@ public class Director extends Participante {
     @Override
     public String toString() {
         String str = ", director";
-        str = nombredirector + str;
+        str = this.nombredirector + str;
         str = str + "\r\n";
 
         return str;

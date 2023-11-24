@@ -12,4 +12,11 @@ public class BandaMusica extends Participante {
     public void annadirActuacion(Actuacion a){
         actuaciones.add(a);
     }
+
+    @Override
+    public String toString() {
+        String str = this.nombrebanda;
+        return str;
+    }
+
 }

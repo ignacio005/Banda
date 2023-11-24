@@ -16,7 +16,7 @@ public class MusicoRefuerzo extends Participante{
     }
     @Override
     public String toString(){
-        String str = nombrerefuerzo + "," + instrumento + "," + valor + " €";
+        String str = this.nombrerefuerzo + ", " + this.instrumento + ", " + this.valor + " €";
         str = str + "\r\n";
 
 

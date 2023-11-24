@@ -13,9 +13,10 @@ public class MusicoSocio extends Participante{
     }
     @Override
     public String toString(){
-        String str = nombresocio + ", " + instrumento + ", " + "número de socio: " + numerosocio;
+        String str = this.nombresocio + ", " + this.instrumento + ", " + "número de socio: " + this.numerosocio;
         str = str + "\r\n";
 
         return str;
     }
+
 }

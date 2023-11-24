@@ -23,10 +23,10 @@ public class Actuacion {
     @Override
     public String toString(){
         String str="Fecha de actuación: ";
-        str = str + fecha.format(DateTimeFormatter.ISO_DATE);
+        str = str + this.fecha;
         str = str + "\r\n";
-        for(Participante p: participantes){
-            str= str + p.toString();
+        for(Participante p: this.participantes){
+            str += p.toString();
         }
 
         return str;
