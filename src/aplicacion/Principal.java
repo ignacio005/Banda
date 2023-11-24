@@ -22,7 +22,7 @@ public class Principal {
         act2.annadirParticipante(dir);
         act2.annadirParticipante(msc1);
         act2.annadirParticipante(msr2);
-        System.out.println(bd);
-
+        System.out.println(bd.toString());
+        
     }
 }
